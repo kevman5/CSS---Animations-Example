@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+#box1 {
+	width: 75px;
+	height: 75px;
+	background-color: red;
+	position: relative;
+	animation-name: box1;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: 3;
+}
+
+#div1 {transition-timing-function: ease-in;}
+
+div:hover {
+  width: 100px;
+}
+@keyframes box1 {
+  0%  {background-color:red; left:150px; top:150px;}
+  25%  {background-color:grey; left:120px; top:0px;}
+  50%  {background-color:blue; left:25px; top:200px;}
+  75%  {background-color:purple; left:0px; top:200px;}
+  85%  {background-color:black; left:0px; top:0px;}
+  100% {background-color:orange; left120px; top:0px;}
+  }
+  
+  
+  #box2 {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: relative;
+	animation-name: box2;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: 3;
+}
+
+#div1 {transition-timing-function: ease-in;}
+
+div:hover {
+  width: 100px;
+}
+@keyframes box2 {
+  0%  {background-color:violet; left:100px; top:150px;}
+  25%  {background-color:lightblue; left:175px; top:0px;}
+  50%  {background-color:grey; left:25px; top:150px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  85%  {background-color:red; left:140px; top:0px;}
+  100% {background-color:black; left75px; top:110px;}
+  }
+  <hr>
+  </br>
+  
+
+  
+  
+  </style>
+  </head>
+  <body>
+  <h1>CSS Animation Project - Week 8 </h1>
+ 
+ 
+  <div id="box1"></div>
+  <div id="box2"></div>
+  </body>
+  
+  </html>
